@@ -1,0 +1,74 @@
+# Build artifacts
+Backend/bin/
+Backend/obj/
+
+# User-specific files
+Backend/*.user
+Backend/*.rsuser
+Backend/*.suo
+Backend/*.userosscache
+Backend/*.sln.docstates
+
+# Logs and database
+Backend/*.log
+Backend/*.tlog
+Backend/*.pidb
+Backend/*.svclog
+Backend/.vscode/
+
+# Visual Studio cache
+Backend/.vs/
+Backend/*.VC.db
+Backend/*.VC.VC.opendb
+
+# Rider cache
+Backend/.idea/
+
+# Packages
+Backend/*.nupkg
+Backend/*.snupkg
+Backend/packages/
+
+# Dependency folders
+Backend/node_modules/
+Backend/bower_components/
+
+# ASP.NET Scaffolding
+Backend/.scaffolding/
+
+# Environment settings
+Backend/appsettings.*.json
+Backend/appsettings.json
+Backend/secrets.json
+
+# Runtime files
+Backend/*.dll
+Backend/*.exe
+Backend/*.pdb
+Backend/*.mdb
+Backend/*.so
+Backend/*.dylib
+Backend/*.log
+Backend/*.pid
+Backend/*.manifest
+Backend/*.genruntimeconfig.json
+Backend/*.deps.json
+
+# Compiled source code
+Backend/*.obj
+Backend/*.dll
+Backend/*.exe
+Backend/*.dll.config
+
+# Lock files
+Backend/project.lock.json
+Backend/project.fragment.lock.json
+
+# Publish output
+Backend/wwwroot/
+Backend/dist/
+Backend/out/
+
+# IDE-specific files
+Backend/.DS_Store
+Backend/Thumbs.db
