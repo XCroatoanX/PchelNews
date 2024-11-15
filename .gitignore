@@ -1,6 +1,8 @@
+# Ignore everything inside the Backend directory
+
 # Build artifacts
-Backend/bin/
-Backend/obj/
+Backend/PchelNewsBackend/bin/
+Backend/PchelNewsBackend/obj/
 
 # User-specific files
 Backend/*.user
@@ -10,11 +12,10 @@ Backend/*.userosscache
 Backend/*.sln.docstates
 
 # Logs and database
-Backend/*.log
-Backend/*.tlog
-Backend/*.pidb
-Backend/*.svclog
-Backend/.vscode/
+Backend/PchelNewsBackend/*.log
+Backend/PchelNewsBackend/*.tlog
+Backend/PchelNewsBackend/*.pidb
+Backend/PchelNewsBackend/*.svclog
 
 # Visual Studio cache
 Backend/.vs/
@@ -25,49 +26,49 @@ Backend/*.VC.VC.opendb
 Backend/.idea/
 
 # Packages
-Backend/*.nupkg
-Backend/*.snupkg
+Backend/PchelNewsBackend/*.nupkg
+Backend/PchelNewsBackend/*.snupkg
 Backend/packages/
 
 # Dependency folders
-Backend/node_modules/
-Backend/bower_components/
+Backend/PchelNewsBackend/node_modules/
+Backend/PchelNewsBackend/bower_components/
 
 # ASP.NET Scaffolding
-Backend/.scaffolding/
+Backend/PchelNewsBackend/.scaffolding/
 
 # Environment settings
-Backend/appsettings.*.json
-Backend/appsettings.json
-Backend/secrets.json
+Backend/PchelNewsBackend/appsettings.*.json
+Backend/PchelNewsBackend/appsettings.json
+Backend/PchelNewsBackend/secrets.json
 
 # Runtime files
-Backend/*.dll
-Backend/*.exe
-Backend/*.pdb
-Backend/*.mdb
-Backend/*.so
-Backend/*.dylib
-Backend/*.log
-Backend/*.pid
-Backend/*.manifest
-Backend/*.genruntimeconfig.json
-Backend/*.deps.json
+Backend/PchelNewsBackend/*.dll
+Backend/PchelNewsBackend/*.exe
+Backend/PchelNewsBackend/*.pdb
+Backend/PchelNewsBackend/*.mdb
+Backend/PchelNewsBackend/*.so
+Backend/PchelNewsBackend/*.dylib
+Backend/PchelNewsBackend/*.log
+Backend/PchelNewsBackend/*.pid
+Backend/PchelNewsBackend/*.manifest
+Backend/PchelNewsBackend/*.genruntimeconfig.json
+Backend/PchelNewsBackend/*.deps.json
 
 # Compiled source code
-Backend/*.obj
-Backend/*.dll
-Backend/*.exe
-Backend/*.dll.config
+Backend/PchelNewsBackend/*.obj
+Backend/PchelNewsBackend/*.dll
+Backend/PchelNewsBackend/*.exe
+Backend/PchelNewsBackend/*.dll.config
 
 # Lock files
-Backend/project.lock.json
-Backend/project.fragment.lock.json
+Backend/PchelNewsBackend/project.lock.json
+Backend/PchelNewsBackend/project.fragment.lock.json
 
 # Publish output
-Backend/wwwroot/
-Backend/dist/
-Backend/out/
+Backend/PchelNewsBackend/wwwroot/
+Backend/PchelNewsBackend/dist/
+Backend/PchelNewsBackend/out/
 
 # IDE-specific files
 Backend/.DS_Store
