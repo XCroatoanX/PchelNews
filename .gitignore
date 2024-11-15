@@ -73,3 +73,37 @@ Backend/PchelNewsBackend/out/
 # IDE-specific files
 Backend/.DS_Store
 Backend/Thumbs.db
+
+# Ignore everything inside the Frontend directory
+
+# Angular build artifacts
+Frontend/PchelNewsFrontend/dist/
+Frontend/PchelNewsFrontend/tmp/
+Frontend/PchelNewsFrontend/out-tsc/
+
+# User-specific files
+Frontend/PchelNewsFrontend/.idea/
+Frontend/PchelNewsFrontend/.vscode/
+Frontend/PchelNewsFrontend/.sublime-project
+Frontend/PchelNewsFrontend/.sublime-workspace
+
+# Logs
+Frontend/PchelNewsFrontend/npm-debug.log*
+Frontend/PchelNewsFrontend/yarn-debug.log*
+Frontend/PchelNewsFrontend/yarn-error.log*
+
+# Dependency directories
+Frontend/PchelNewsFrontend/node_modules/
+Frontend/PchelNewsFrontend/bower_components/
+
+# Compiled output
+Frontend/PchelNewsFrontend/main.*.js
+Frontend/PchelNewsFrontend/polyfills.*.js
+Frontend/PchelNewsFrontend/runtime.*.js
+Frontend/PchelNewsFrontend/styles.*.css
+Frontend/PchelNewsFrontend/vendor.*.js
+
+# IDE-specific files
+Frontend/PchelNewsFrontend/.DS_Store
+Frontend/PchelNewsFrontend/Thumbs.db
+
