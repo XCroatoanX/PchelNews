@@ -1,0 +1,21 @@
+<mat-toolbar>
+    <span i18n>Добрые Новости</span>
+    <span class="header-spacer"></span>
+    <mat-slide-toggle [checked]="isDarkMode" (change)="toggleDarkMode($event.checked)" matTooltip="Toggle {{isDarkMode ? 'light' : 'dark'}} mode" aria-label="Toggle dark mode"
+        #darkModeSwitch></mat-slide-toggle>
+  <button mat-icon-button class="example-icon" matTooltip="Choose language" aria-label="Example icon-button with share icon" [matMenuTriggerFor]="languagemenu">
+    <mat-icon>language</mat-icon>
+  </button>
+  <mat-menu #languagemenu="matMenu">
+    <button mat-menu-item>English</button>
+    <button mat-menu-item>Русский</button>
+    <button mat-menu-item>Українська</button>
+    <button mat-menu-item>Српски</button>
+  </mat-menu>
+  <button mat-icon-button class="example-icon favorite-icon" matTooltip="Propose a news" aria-label="Example icon-button with heart icon">
+    <mat-icon>mail</mat-icon>
+  </button>
+  <button mat-icon-button class="example-icon" matTooltip="Login" aria-label="Example icon-button with share icon">
+    <mat-icon>login</mat-icon>
+  </button>
+</mat-toolbar>
