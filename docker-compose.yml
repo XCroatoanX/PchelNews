@@ -1,0 +1,30 @@
+services:
+  postgres:
+    image: postgres:latest
+    container_name: PostgreSQL
+    restart: on-failure:2
+    environment:
+      POSTGRES_DB: pchel_news
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: Admin123
+    volumes:
+      - postgresdb:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  pgadmin:
+    image: elestio/pgadmin:latest
+    container_name: pgAdmin
+    restart: on-failure:2
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@mail.com
+      PGADMIN_DEFAULT_PASSWORD: Admin123
+      PGADMIN_LISTEN_PORT: 80
+    ports:
+      - "8000:80"
+    volumes:
+      - pgadmin-data:/var/lib/pgadmin
+
+volumes:
+  postgresdb:
+  pgadmin-data:
